@@ -86,15 +86,8 @@ gcloud iam service-accounts create urlsigner --display-name="GCS URL Signer" --p
 gcloud iam service-accounts keys  create service_account.json --iam-account=urlsigner@${PROJECT_NAME}.iam.gserviceaccount.com
 ```
 
-
 ```
-#
-```
-
-service\_account.json 라는 이름으로 파일이 정상적으로 다운로드 된 것을 확인합니다.
-
-
-```
+#service_account.json 라는 이름으로 파일이 정상적으로 다운로드 된 것을 확인합니다.
 ls
 ```
 
