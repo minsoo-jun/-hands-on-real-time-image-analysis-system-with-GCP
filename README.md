@@ -347,7 +347,7 @@ gcloud functions deploy ocr-translate
 </td></tr>
 </table>
 
-출력예: (절대 2분이 안끝남 -\_-V)
+출력예: (절대 2분에 안끝남 -\_-V)
 
 
 ```bash
