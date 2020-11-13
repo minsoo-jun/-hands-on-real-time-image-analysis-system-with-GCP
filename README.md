@@ -1,5 +1,13 @@
 # [KR] real-time image analysis system with GCP
 
+## 개요
+전체 아키텍트
+![main](img/main_architect.png)
+
+실제 핸즈온에서는 온실의 IoT장비에서 정기적으로 캡쳐한 사진을 Cloud Run으로 HTTPS POST로 전송하는 부분을 수동으로 이미지 업로드하는 형식으로 변경 되어 있습니다. 분석 결과를 온실의 IoT 장비로 Push하는 부분은 생략 되어 있습니다.
+
+파일 업로드에서 사용하는 샘플 소스는 아래의 깃헙의 소스를 사용하고 있습니다.
+https://github.com/mcowger/gcs-file-uploader
 
 ## Cloud Run으로 파일 업로드 서비스 작성
 
